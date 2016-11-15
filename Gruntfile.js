@@ -46,15 +46,6 @@ module.exports = function(grunt) {
                     dest: 'dist/css',
                     ext: '.min.css'
                 }]
-            },
-            docs: {
-                files: [{
-                    expand: true,
-                    cwd: 'docs/assets/css',
-                    src: ['*.css', '!*.min.css'],
-                    dest: 'docs/assets/css',
-                    ext: '.min.css'
-                }]
             }
         },
 
@@ -73,13 +64,20 @@ module.exports = function(grunt) {
 
     });
 
+    // These plugins provide necessary tasks.
+    require('load-grunt-tasks')(grunt, {
+        scope: 'devDependencies',
+        // Exclude Sass compilers. We choose the one to load later on.
+        pattern: ['grunt-*', '!grunt-sass', '!grunt-contrib-sass']
+    });
+    require('time-grunt')(grunt);
 
     grunt.registerTask('test-scss', ['scsslint:core']);
 
     require('./grunt/bs-sass-compile/libsass.js')(grunt);
 
-    grunt.registerTask('sass-compile', ['sass:core', 'sass:extras', 'sass:docs']);
-    grunt.registerTask('dist-css', ['sass-compile', 'exec:postcss', 'cssmin:core', 'cssmin:docs']);
+    grunt.registerTask('sass-compile', ['sass:core', 'sass:extras']);
+    grunt.registerTask('dist-css', ['sass-compile', 'exec:postcss', 'cssmin:core']);
     grunt.registerTask('build', ['clean:dist', 'dist-css']);
 
 };
