@@ -1,0 +1,47 @@
+{
+  "name": "bootstrap",
+  "description": "The universal normalize and grid system for developing responsive web.",
+  "version": "4.0.0-alpha.5",
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "author": "Chikara Chan",
+  "scripts": {
+    "change-version": "node grunt/change-version.js",
+    "eslint": "eslint --config js/.eslintrc.json js/src",
+    "jscs": "jscs --config=js/.jscsrc js/src js/tests/unit docs/assets/js/src grunt Gruntfile.js docs/assets/js/ie-emulation-modes-warning.js docs/assets/js/ie10-viewport-bug-workaround.js",
+    "htmlhint": "htmlhint --config docs/.htmlhintrc _gh_pages/",
+    "postcss": "postcss --config grunt/postcss.js --replace dist/css/*.css",
+    "postcss-docs": "postcss --config grunt/postcss.js --no-map --replace docs/assets/css/docs.min.css && postcss --config grunt/postcss.js --no-map --replace docs/examples/**/*.css",
+    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json",
+    "test": "npm run eslint && npm run jscs && grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chikara-chen/pure.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "grunt": "^1.0.1",
+    "grunt-build-control": "^0.7.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.1",
+    "grunt-sass": "^1.2.1",
+    "grunt-scss-lint": "^0.5.0",
+    "load-grunt-tasks": "^3.5.2",
+    "postcss-cli": "^2.6.0",
+    "postcss-flexbugs-fixes": "^2.0.0",
+  },
+}
