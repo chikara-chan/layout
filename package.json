@@ -27,8 +27,6 @@
     "url": "https://github.com/chikara-chen/pure.git"
   },
   "license": "MIT",
-  "dependencies": {
-  },
   "devDependencies": {
     "autoprefixer": "^6.5.0",
     "grunt": "^1.0.1",
@@ -42,6 +40,6 @@
     "grunt-scss-lint": "^0.5.0",
     "load-grunt-tasks": "^3.5.2",
     "postcss-cli": "^2.6.0",
-    "postcss-flexbugs-fixes": "^2.0.0",
-  },
+    "postcss-flexbugs-fixes": "^2.0.0"
+  }
 }
