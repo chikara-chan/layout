@@ -72,8 +72,6 @@ module.exports = function(grunt) {
     });
     require('time-grunt')(grunt);
 
-    grunt.registerTask('test-scss', ['scsslint:core']);
-
     require('./grunt/bs-sass-compile/libsass.js')(grunt);
 
     grunt.registerTask('sass-compile', ['sass:core', 'sass:extras']);
