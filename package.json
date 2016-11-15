@@ -1,7 +1,7 @@
 {
   "name": "bootstrap",
   "description": "The universal normalize and grid system for developing responsive web.",
-  "version": "4.0.0-alpha.5",
+  "version": "1.0.0",
   "keywords": [
     "css",
     "sass",
