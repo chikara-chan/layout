@@ -52,13 +52,13 @@
         }
       }
 
-      @each $modifier in (pull, push) {
-        @for $i from 0 through $columns {
-          .#{$modifier}-#{$breakpoint}-#{$i} {
-            @include make-col-modifier($modifier, $i, $columns)
-          }
-        }
-      }
+      // @each $modifier in (pull, push) {
+      //   @for $i from 0 through $columns {
+      //     .#{$modifier}-#{$breakpoint}-#{$i} {
+      //       @include make-col-modifier($modifier, $i, $columns)
+      //     }
+      //   }
+      // }
 
       // `$columns - 1` because offsetting by the width of an entire row isn't possible
       @for $i from 0 through ($columns - 1) {
