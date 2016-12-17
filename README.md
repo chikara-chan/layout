@@ -8,7 +8,7 @@ A tiny responsive css framework merely include normalize and grid system based o
 - `pure-grid.css` merely grid system
 - `pure.css` integration of normalize and grid system
 
-## List of Class
+## Features
 
 - .container
 - .container-fluid
