@@ -1,6 +1,6 @@
 # Pure
 
-The universal normalize and grid system for developing responsive web.
+A tiny responsive css framework merely include normalize and grid system based on Bootstrap3
 
 ## Introduction
 
