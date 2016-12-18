@@ -1530,4 +1530,18 @@ output {
     margin-left: 95.833333%;
   }
 }
-/*# sourceMappingURL=pure.css.map */
+
+.hide {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+/*# sourceMappingURL=layout.css.map */

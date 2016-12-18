@@ -1,0 +1,13 @@
+.hide {
+    display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
