@@ -1,6 +1,6 @@
 # Layout
 
-The universal normalize and grid system for developing responsive web.
+A tiny responsive css framework merely include normalize and grid system based on Bootstrap3
 
 ## Introduction
 
@@ -8,7 +8,7 @@ The universal normalize and grid system for developing responsive web.
 - `layout-grid.css` merely grid system
 - `layout.css` integration of normalize and grid system and utilities
 
-## List of Class
+## Features
 
 - .container
 - .container-fluid
