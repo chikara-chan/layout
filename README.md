@@ -5,8 +5,8 @@ A tiny responsive css framework merely include normalize and grid system based o
 ## Introduction
 
 - `layout-reboot.css` merely normalize
-- `layout-grid.css` merely grid system
-- `layout.css` integration of normalize and grid system and utilities
+- `layout-grid.css` integration of normalize and flex system and utilities
+- `layout-flex.css` integration of normalize and grid system and utilities
 
 ## Features
 
