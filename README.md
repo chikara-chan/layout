@@ -14,8 +14,8 @@ A tiny responsive css framework merely include normalize and grid system based o
 - .container-fluid
 - .row
 - .col-xs     .col-sm      .col-md  .col-lg      .col-xl
-- .col-\*-1    .col-\*-2     ·····    .col-\*-23    .col-\*-24
-- .offset-\*-1 .offset-\*-2  ·····    .offset-\*-23 .offset-\*-24
+- .col-\*-1    .col-\*-2     ·····    .col-\*-11    .col-\*-12
+- .offset-\*-1 .offset-\*-2  ·····    .offset-\*-11 .offset-\*-12
 - .hide .invisible .clearfix
 
 ## Local setup
