@@ -1,12 +1,12 @@
 # Layout
 
-A tiny responsive css framework merely include normalize and grid system based on Bootstrap 4
+A tiny responsive css framework merely include normalize and grid system based on Bootstrap 4.0.0-alpha-5
 
 ## Introduction
 
 - `layout-reboot.css` merely normalize
-- `layout-grid.css` integration of normalize and flex system and utilities
-- `layout-flex.css` integration of normalize and grid system and utilities
+- `layout-grid.css` integration of normalize and grid system and utilities
+- `layout-flex.css` integration of normalize and flex system and utilities
 
 ## Features
 
