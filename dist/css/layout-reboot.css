@@ -371,6 +371,7 @@ summary,
 textarea {
   -ms-touch-action: manipulation;
       touch-action: manipulation;
+  cursor: pointer;
 }
 
 table {
